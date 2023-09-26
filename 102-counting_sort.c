@@ -58,13 +58,13 @@ void counting_sort(int *array, size_t size)
  */
 int get_max(int *array, int size)
 {
-        int max, i;
+	int max, i;
 
-        for (max = array[0], i = 1; i < size; i++)
-        {
-                if (array[i] > max)
-                        max = array[i];
-        }
+	for (max = array[0], i = 1; i < size; i++)
+	{
+		if (array[i] > max)
+			max = array[i];
+	}
 
-        return (max);
+	return (max);
 }
